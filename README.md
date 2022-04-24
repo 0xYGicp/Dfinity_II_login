@@ -42,3 +42,6 @@ Copy the canister ID fom the Internet Identity canister, and paste it into `webp
 Finally, cd back into the auth-client-demo directory and start the development server with `npm start`.
 
 You can now access the app at `http://localhost:8080`.
+
+- webpackでエラー置きがち
+npm install --save-dev webpack webpack-cli
