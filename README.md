@@ -34,6 +34,7 @@ cd ../internet-identity
 rm -rf .dfx/local
 II_FETCH_ROOT_KEY=1 II_DUMMY_CAPTCHA=1  dfx deploy --no-wallet --argument '(null)'
 pushd
+dfx canister id internet_identity
 ```
 
 Copy the canister ID fom the Internet Identity canister, and paste it into `webpack.config.js` in this project on the `LOCAL_II_CANISTER` variable on line `8`.
